@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    app:layout_constraintDimensionRatio="h,1:1"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    tools:context="com.uts.zona.angklungpad.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="230dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/doo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/blue_button"
+            android:onClick="doo"
+            tools:layout_editor_absoluteX="242dp"
+            tools:layout_editor_absoluteY="157dp" />
+
+        <Button
+            android:id="@+id/re"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/blue_button"
+            android:onClick="re"
+            tools:layout_editor_absoluteX="242dp"
+            tools:layout_editor_absoluteY="157dp" />
+
+        <Button
+            android:id="@+id/mi"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/blue_button"
+            android:onClick="mi"
+            tools:layout_editor_absoluteX="242dp"
+            tools:layout_editor_absoluteY="157dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="120dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/fa"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/orange_button"
+            android:onClick="fa"
+            tools:layout_editor_absoluteX="242dp"
+            tools:layout_editor_absoluteY="157dp" />
+
+        <Button
+            android:id="@+id/sol"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/orange_button"
+            android:onClick="sol"
+            tools:layout_editor_absoluteX="242dp"
+            tools:layout_editor_absoluteY="157dp" />
+
+        <Button
+            android:id="@+id/la"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/orange_button"
+            android:onClick="la"
+            tools:layout_editor_absoluteX="242dp"
+            tools:layout_editor_absoluteY="157dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/si"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/red_button"
+            android:onClick="si"
+            tools:layout_editor_absoluteX="242dp"
+            tools:layout_editor_absoluteY="157dp" />
+
+        <Button
+            android:id="@+id/do1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/red_button"
+            android:onClick="do1"
+            tools:layout_editor_absoluteX="242dp"
+            tools:layout_editor_absoluteY="157dp" />
+
+        <Button
+            android:id="@+id/sol"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/red_button"
+            android:onClick="sol"
+            tools:layout_editor_absoluteX="242dp"
+            tools:layout_editor_absoluteY="157dp" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+
