@@ -2,11 +2,11 @@
     <string name="app_name">Angklung Pad</string>
     <string name="todo">TODO</string>
 
-    <string name="next">NEXT</string>
-    <string name="skip">SKIP</string>
-    <string name="start">GOT IT</string>
+    <string name="next">LANJUT</string>
+    <string name="skip">LEWATI</string>
+    <string name="start">MULAI</string>
 
-    <string name="slide_1_title">ABGKLUNG PAD</string>
+    <string name="slide_1_title">ANGKLUNG PAD</string>
     <string name="slide_1_desc">Angklung elektronic mobile</string>
 
     <string name="slide_2_title">Mudah Dimainkan</string>
@@ -16,7 +16,7 @@
     <string name="slide_3_desc">Tetap merdu</string>
 
     <string name="slide_4_title">BUDAYA INDONESIA</string>
-    <string name="slide_4_desc">Memangku Hayuning Bawana</string>
+    <string name="slide_4_desc">Memayu Hayuning Bawana</string>
 
     <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
     <string name="play_again">Play Again</string>
